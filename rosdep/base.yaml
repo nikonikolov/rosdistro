@@ -3195,6 +3195,7 @@ pkg-config:
   macports: [pkgconfig]
   opensuse: [pkg-config]
   rhel: [pkgconfig]
+  slackware: [pkg-config]
   ubuntu: [pkg-config]
 portaudio:
   arch: [portaudio]

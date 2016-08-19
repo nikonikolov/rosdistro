@@ -973,6 +973,7 @@ python-mock:
   debian: [python-mock]
   fedora: [python-mock]
   gentoo: [dev-python/mock]
+  slackware: [mock]
   ubuntu:
     lucid: [python-mock]
     maverick: [python-mock]
@@ -1886,6 +1887,9 @@ python-rospkg:
   gentoo: [dev-python/rospkg]
   macports: [py27-rospkg]
   opensuse: [python-rospkg]
+  slackware:
+    pip:
+      packages: [rospkg]
   ubuntu:
     lucid: [python-rospkg]
     maverick: [python-rospkg]
