@@ -1888,8 +1888,9 @@ python-rospkg:
   macports: [py27-rospkg]
   opensuse: [python-rospkg]
   slackware:
-    pip:
-      packages: [rospkg]
+    "14.2":
+      pip:
+        packages: [rospkg]
   ubuntu:
     lucid: [python-rospkg]
     maverick: [python-rospkg]
