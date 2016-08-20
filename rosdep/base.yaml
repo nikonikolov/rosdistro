@@ -335,6 +335,7 @@ boost:
   macports: [boost]
   opensuse: [boost-devel]
   rhel: [boost-devel]
+  slackware: [boost]
   ubuntu:
     lucid:
       apt:
@@ -487,6 +488,7 @@ cmake:
   gentoo: [dev-util/cmake]
   macports: [cmake]
   opensuse: [cmake]
+  slackware: [cmake]
   ubuntu: [cmake]
 coinor-libipopt-dev:
   arch: [coinor-all]
@@ -659,6 +661,7 @@ eigen:
   macports: [eigen3]
   opensuse: [libeigen3-devel]
   rhel: [eigen3-devel]
+  slackware: [eigen3]
   ubuntu:
     apt:
       packages: [libeigen3-dev]
@@ -666,6 +669,7 @@ eigen2:
   arch: [eigen2]
   fedora: [eigen2-devel]
   opensuse: [libeigen2-devel]
+  slackware: [eigen2]
   ubuntu:
     apt:
       packages: [libeigen2-dev]
@@ -4075,6 +4079,7 @@ zlib:
   macports: [zlib]
   opensuse: [zlib-devel]
   rhel: [zlib-devel]
+  slackware: [zlib]
   ubuntu: [zlib1g-dev]
 zziplib:
   arch: [zziplib]

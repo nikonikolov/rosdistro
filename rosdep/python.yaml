@@ -1126,6 +1126,11 @@ python-numpy:
   macports: [py27-numpy]
   opensuse: [python-numpy]
   rhel: [numpy]
+  slackware:
+    pip: 
+      packages: [numpy]
+    sbotools:
+      packages: [numpy]
   ubuntu:
     lucid: [python-numpy]
     maverick: [python-numpy]
@@ -1218,6 +1223,7 @@ python-paramiko:
   macports: [py27-paramiko]
   opensuse: [python-paramiko]
   rhel: [python-paramiko]
+  slackware: [paramiko]
   ubuntu:
     lucid: [python-paramiko]
     maverick: [python-paramiko]
@@ -1888,9 +1894,8 @@ python-rospkg:
   macports: [py27-rospkg]
   opensuse: [python-rospkg]
   slackware:
-    "14.2":
-      pip:
-        packages: [rospkg]
+    pip:
+      packages: [rospkg]
   ubuntu:
     lucid: [python-rospkg]
     maverick: [python-rospkg]
@@ -2539,6 +2544,11 @@ python-yaml:
   macports: [py27-yaml]
   opensuse: [python-PyYAML]
   rhel: [PyYAML]
+  slackware:
+    pip:
+      packages: [PyYAML]
+    sbotools:
+      packages: [PyYAML]
   ubuntu:
     lucid: [python-yaml]
     maverick: [python-yaml]
