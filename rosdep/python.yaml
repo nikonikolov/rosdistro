@@ -1888,7 +1888,7 @@ python-rospkg:
   macports: [py27-rospkg]
   opensuse: [python-rospkg]
   slackware:
-    "14.2":
+    14.2:
       pip:
         packages: [rospkg]
   ubuntu:
