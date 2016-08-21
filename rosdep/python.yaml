@@ -136,6 +136,9 @@ python-argparse:
   gentoo: [python]
   macports: [py27-argparse]
   opensuse: [python-argparse]
+  slackware: 
+    pip:
+      packages: [argparse]
   ubuntu:
     lucid: [python-argparse]
     maverick: [python-argparse]
@@ -283,6 +286,9 @@ python-bson:
 python-cairo:
   debian: [python-cairo]
   fedora: [pycairo]
+  slackware: 
+    pip:
+      packages: [pycairo]
   ubuntu:
     lucid: [python-cairo]
     oneiric: [python-cairo]

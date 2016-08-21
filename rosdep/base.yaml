@@ -158,6 +158,7 @@ assimp-dev:
       packages: [media-libs/assimp]
   opensuse: [libassimp3]
   rhel: [assimp-devel]
+  slackware: [assimp]
   ubuntu:
     lucid:
       apt:
@@ -564,6 +565,7 @@ curl:
   macports: [curl]
   opensuse: [libcurl-devel, curl]
   rhel: [libcurl-devel, curl]
+  slackware: [curl]
   ubuntu: [libcurl4-openssl-dev, curl]
 cvs:
   arch: [cvs]
@@ -771,6 +773,7 @@ fltk:  # Consider using the libfltk-dev and fluid (fltk runtime) keys instead.
   gentoo: [=x11-libs/fltk-1*]
   macports: [fltk]
   opensuse: [fltk-devel]
+  slackware: [fltk]
   ubuntu:
     lucid: [fluid, libfltk1.1-dev]
     maverick: [fluid, libfltk1.1-dev]
@@ -2555,6 +2558,7 @@ libtheora:
   gentoo: [media-libs/libtheora]
   macports: [libtheora]
   opensuse: [libtheora-devel]
+  slackware: [libtheora]
   ubuntu: [libtheora-dev]
 libtiff-dev:
   arch: [libtiff]
@@ -2763,6 +2767,7 @@ libvtk:
   gentoo: [sci-libs/vtk]
   macports: [vtk-devel]
   opensuse: [vtk-devel]
+  slackware: [VTK]
   ubuntu:
     lucid: [libvtk5-dev]
     maverick: [libvtk5-dev]
@@ -3248,6 +3253,7 @@ proj:
   debian: [libproj-dev]
   fedora: [proj-devel]
   gentoo: [sci-libs/proj]
+  slackware: [proj]
   ubuntu: [libproj-dev]
 protobuf:
   arch: [protobuf]
@@ -3679,6 +3685,7 @@ tango-icon-theme:
   mandrake: [tango-icon-theme]
   opensuse: [tango-icon-theme]
   rhel: [tango-icon-theme]
+  slackware: [tango-icon-theme]
   ubuntu: [tango-icon-theme]
 tap-plugins:
   fedora: [ladspa-tap-plugins]
