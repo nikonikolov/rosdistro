@@ -423,6 +423,7 @@ python-coverage:
   debian: [python-coverage]
   fedora: [python-coverage]
   gentoo: [dev-python/coverage]
+  slackware: [coverage]
   ubuntu:
     lucid: [python-coverage]
     maverick: [python-coverage]
@@ -933,6 +934,7 @@ python-matplotlib:
   macports: [py27-matplotlib]
   opensuse: [python-matplotlib]
   rhel: [python-matplotlib]
+  slackware: [matplotlib]
   ubuntu:
     lucid: [python-matplotlib]
     maverick: [python-matplotlib]
@@ -1053,6 +1055,7 @@ python-netifaces:
   gentoo: [dev-python/netifaces]
   macports: [p27-netifaces]
   opensuse: [python-netifaces]
+  slackware: [netifaces]
   ubuntu:
     lucid: [python-netifaces]
     maverick: [python-netifaces]
@@ -1100,6 +1103,7 @@ python-nose:
       packages: [dev-python/nose]
   macports: [py27-nose]
   opensuse: [python-nose]
+  slackware: [nose]
   ubuntu:
     lucid: [python-nose]
     maverick: [python-nose]
@@ -1126,11 +1130,7 @@ python-numpy:
   macports: [py27-numpy]
   opensuse: [python-numpy]
   rhel: [numpy]
-  slackware:
-    pip: 
-      packages: [numpy]
-    sbotools:
-      packages: [numpy]
+  slackware: [numpy]
   ubuntu:
     lucid: [python-numpy]
     maverick: [python-numpy]
@@ -1191,6 +1191,7 @@ python-opengl:
   gentoo: [dev-python/pyopengl]
   macports: [py27-opengl]
   opensuse: [python-opengl]
+  slackware: [PyOpenGL]
   ubuntu:
     lucid: [python-opengl]
     maverick: [python-opengl]
@@ -2544,11 +2545,7 @@ python-yaml:
   macports: [py27-yaml]
   opensuse: [python-PyYAML]
   rhel: [PyYAML]
-  slackware:
-    pip:
-      packages: [PyYAML]
-    sbotools:
-      packages: [PyYAML]
+  slackware: [PyYAML]
   ubuntu:
     lucid: [python-yaml]
     maverick: [python-yaml]

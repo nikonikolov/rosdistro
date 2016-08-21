@@ -545,6 +545,7 @@ cppunit:
   macports: [cppunit]
   opensuse: [libcppunit-devel]
   rhel: [cppunit-devel]
+  slackware: [cppunit]
   ubuntu: [libcppunit-dev]
 crypto++:
   fedora: [cryptopp-devel]
@@ -2144,6 +2145,7 @@ libpoco-dev:
     portage:
       packages: [dev-libs/poco]
   macports: [poco]
+  slackware: [poco]
   ubuntu: [libpoco-dev]
 libpocofoundation9:
   debian: [libpocofoundation9]
@@ -2267,6 +2269,7 @@ libqhull:
   gentoo: [media-libs/qhull]
   macports: [qhull]
   opensuse: [qhull-devel]
+  slackware: [qhull]
   ubuntu: [libqhull-dev]
 libqt4:
   arch: [qt4]
@@ -3136,6 +3139,7 @@ opengl:
   macports: [mesa]
   opensuse: [Mesa-devel]
   rhel: [mesa-libGL-devel, mesa-libGLU-devel]
+  slackware: [mesa]
   ubuntu: [libgl1-mesa-dev, libglu1-mesa-dev]
 openjdk-6-jdk:
   arch: [openjdk6]
@@ -3423,6 +3427,7 @@ sbcl:
       packages: [dev-lisp/sbcl]
   macports: [sbcl]
   opensuse: [sbcl]
+  slackware: [sbcl]
   ubuntu: [sbcl]
 scons:
   arch: [scons]
@@ -3750,11 +3755,13 @@ tinyxml:
   macports: [tinyxml]
   opensuse: [tinyxml-devel]
   rhel: [tinyxml-devel]
+  slackware: [tinyxml]
   ubuntu: [libtinyxml-dev]
 tinyxml2:
   arch: [tinyxml2]
   debian: [libtinyxml2-dev]
   fedora: [tinyxml2-devel]
+  slackware: [libtinyxml2]
   ubuntu: [libtinyxml2-dev]
 tix:
   arch: [tix]
@@ -3823,6 +3830,7 @@ unzip:
   macports: [unzip]
   opensuse: [unzip]
   rhel: [unzip]
+  slackware: [infozip]
   ubuntu: [unzip]
 uuid:
   arch: [util-linux]
