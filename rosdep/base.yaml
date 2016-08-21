@@ -967,6 +967,7 @@ graphviz:
   macports: [graphviz]
   opensuse: [graphviz]
   rhel: [graphviz]
+  slackware: [graphviz]
   ubuntu: [graphviz]
 gringo:
   fedora: [gringo]
@@ -1373,6 +1374,7 @@ libconsole-bridge-dev:
   debian: [libconsole-bridge-dev]
   fedora: [console-bridge-devel]
   gentoo: [dev-libs/console_bridge]
+  slackware: [bridge-utils]
   ubuntu:
     saucy: [libconsole-bridge-dev]
     trusty: [libconsole-bridge-dev]
@@ -1756,6 +1758,7 @@ libjpeg:
   gentoo: [media-libs/libjpeg-turbo]
   macports: [jpeg]
   opensuse: [libjpeg62-devel]
+  slackware: [libjpeg-turbo]
   ubuntu:
     lucid: [libjpeg62-dev]
     maverick: [libjpeg62-dev]
@@ -4052,6 +4055,7 @@ yaml-cpp:
   macports: [yaml-cpp]
   opensuse: [yaml-cpp-devel]
   rhel: [yaml-cpp-devel]
+  slackware: [yaml-cpp]
   ubuntu:
     lucid: [yaml-cpp0.2.6-dev]
     maverick: [yaml-cpp0.2.6-dev]

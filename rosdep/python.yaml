@@ -81,6 +81,7 @@ python:
   macports: [python26, python_select]
   opensuse: [python-devel]
   rhel: [python-devel]
+  slackware: [python]
   ubuntu:
     lucid: [python-dev]
     maverick: [python-dev]
@@ -528,6 +529,9 @@ python-defusedxml:
   osx:
     pip:
       packages: [defusedxml]
+  slackware:
+    pip:
+      packages: [defusedxml]
   ubuntu: [python-defusedxml]
 python-dlib:
   ubuntu:
@@ -571,6 +575,9 @@ python-empy:
   gentoo: [dev-python/empy]
   macports: [py27-empy]
   opensuse: [python-empy]
+  slackware: 
+    pip:
+      packages: [empy]
   ubuntu:
     lucid: [python-empy]
     maverick: [python-empy]
@@ -803,6 +810,9 @@ python-imaging:
   macports: [py27-pil]
   opensuse: [python-imaging]
   rhel: [python-imaging]
+  slackware: 
+    pip:
+      packages: [imaging]
   ubuntu:
     lucid: [python-imaging]
     maverick: [python-imaging]
@@ -1181,6 +1191,7 @@ python-opencv:
   arch: [opencv, python2-numpy]
   debian: [python-opencv]
   fedora: [opencv-python]
+  slackware: [opencv]
   ubuntu:
     saucy: [python-opencv]
     trusty: [python-opencv]
@@ -1346,6 +1357,7 @@ python-psutil:
   gentoo: [dev-python/psutil]
   macports: [py27-psutil]
   opensuse: [python-psutil]
+  slackware: [psutil]
   ubuntu:
     lucid: [python-psutil]
     maverick: [python-psutil]
@@ -1459,6 +1471,7 @@ python-pygraphviz:
   osx:
     pip:
       packages: [pygraphviz]
+  slackware: [pygraphviz]
   ubuntu:
     lucid: [python-pygraphviz]
     maverick: [python-pygraphviz]
@@ -1820,6 +1833,9 @@ python-rosdep:
   fedora: [python-rosdep]
   gentoo: [dev-util/rosdep]
   osx:
+    pip:
+      packages: [rosdep]
+  slackware:
     pip:
       packages: [rosdep]
   ubuntu:
@@ -2436,6 +2452,7 @@ python-urlgrabber:
   osx:
     pip:
       packages: [pycurl, urlgrabber]
+  slackware: [urlgrabber]
   ubuntu: [python-urlgrabber]
 python-usb:
   debian: [python-usb]
