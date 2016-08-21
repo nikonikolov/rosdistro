@@ -308,6 +308,9 @@ python-catkin-pkg:
   osx:
     pip:
       packages: [catkin-pkg]
+  slackware:
+    pip:
+      packages: [catkin-pkg]
   ubuntu:
     lucid: [python-catkin-pkg]
     maverick: [python-catkin-pkg]
@@ -1425,6 +1428,7 @@ python-pydot:
       packages: [media-gfx/pydot]
   macports: [py27-pydot]
   opensuse: [python-pydot]
+  slackware: [pydot]
   osx:
     pip:
       packages: [pydot]
@@ -2072,6 +2076,7 @@ python-sip:
     homebrew:
       packages: [sip]
   rhel: [sip-devel]
+  slackware: [sip]
   ubuntu:
     lucid: [python-sip-dev]
     maverick: [python-sip-dev]

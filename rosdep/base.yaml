@@ -105,6 +105,7 @@ assimp:
   macports: [assimp]
   opensuse: [libassimp3]
   rhel: [assimp-devel]
+  slackware: [assimp]
   ubuntu:
     lucid:
       apt:
@@ -438,6 +439,7 @@ bzip2:
   macports: [bzip2]
   opensuse: [libbz2-devel]
   rhel: [bzip2-devel]
+  slackware: [bzip2]
   ubuntu: [libbz2-dev]
 ca-certificates:
   debian: [ca-certificates]
@@ -1047,6 +1049,7 @@ gtest:
   macports: [ros-gtest]
   opensuse: [googletest-devel]
   rhel: [gtest-devel]
+  slackware: [gtest]
   ubuntu: [libgtest-dev]
 gtk-doc-tools:
   arch: [gtk-doc]
@@ -1065,6 +1068,7 @@ gtk2:
   macports: [gtk2]
   opensuse: [gtk2-devel]
   rhel: [gtk2-devel]
+  slackware: [gtk+2]
   ubuntu: [libgtk2.0-dev]
 gv:
   arch: [gv]
@@ -1083,6 +1087,7 @@ hddtemp:
       packages: [app-admin/hddtemp]
   macports: [python27]
   opensuse: [hddtemp]
+  slackware: [hddtemp]
   ubuntu: [hddtemp]
 hdf5:
   arch: [hdf5]
@@ -2957,6 +2962,7 @@ lz4:
   debian: [liblz4-dev]
   fedora: [lz4-devel]
   gentoo: [app-arch/lz4]
+  slackware: [lz4]
   ubuntu:
     saucy: [liblz4-dev]
     trusty: [liblz4-dev]
@@ -3253,6 +3259,7 @@ protobuf:
   fedora: [protobuf]
   gentoo: [dev-libs/protobuf]
   macports: [protobuf-cpp]
+  slackware: [protobuf]
   ubuntu:
     precise: [libprotobuf7]
     raring: [libprotobuf7]
@@ -3844,6 +3851,7 @@ uuid:
   macports: [ossp-uuid]
   opensuse: [libuuid-devel]
   rhel: [libuuid-devel]
+  slackware: [util-linux]
   ubuntu: [uuid-dev]
 uvcdynctrl:
   fedora: [uvcdynctrl]
