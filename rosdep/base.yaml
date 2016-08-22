@@ -2761,6 +2761,7 @@ libv4l-dev:
   fedora: [libv4l-devel]
   gentoo: [media-libs/libv4l]
   opensuse: [libv4l-devel]
+  slackware: [v4l-utils]
   ubuntu: [libv4l-dev]
 libvlc:
   debian: [libvlc5, vlc-nox]
@@ -3889,6 +3890,7 @@ uvcdynctrl:
 v4l-utils:
   arch: [v4l-utils]
   fedora: [v4l-utils]
+  slackware: [v4l-utils]
   ubuntu: [v4l-utils]
 valgrind:
   debian: [valgrind]
