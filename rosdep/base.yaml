@@ -2021,6 +2021,7 @@ libopencv-dev:
   fedora: [opencv-devel]
   gentoo: [media-libs/opencv]
   macports: [opencv]
+  slackware: [opencv]
   ubuntu:
     saucy: [libopencv-dev]
     trusty: [libopencv-dev]
