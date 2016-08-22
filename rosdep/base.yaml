@@ -2588,6 +2588,7 @@ libtiff-dev:
       packages: [media-libs/tiff]
   macports: [tiff]
   opensuse: [libtiff-devel]
+  slackware: [libtiff]
   ubuntu:
     lucid: [libtiff4-dev]
     maverick: [libtiff4-dev]
