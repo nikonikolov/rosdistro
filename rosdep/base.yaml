@@ -741,6 +741,7 @@ ffmpeg:
   fedora: [ffmpeg-devel]
   gentoo: [media-video/ffmpeg]
   macports: [ffmpeg]
+  slackware: [ffmpeg]
   ubuntu:
     lucid: [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
     maverick: [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
