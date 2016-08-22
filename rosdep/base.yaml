@@ -1970,6 +1970,7 @@ libogg:
   gentoo: [media-libs/libogg]
   macports: [libogg]
   opensuse: [libogg-devel]
+  slackware: [libogg]
   ubuntu: [libogg-dev]
 libogre-dev:
   arch: [ogre]
@@ -2340,41 +2341,48 @@ libqt5-core:
   debian: [libqt5core5a]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtcore]
+  slackware: [qt5]
   ubuntu: [libqt5core5a]
 libqt5-gui:
   arch:   [qt5-base]
   debian: [libqt5gui5]
   fedora: [qt5-qtbase-gui]
   gentoo: [dev-qt/qtgui]
+  slackware: [qt5]
   ubuntu: [libqt5gui5]
 libqt5-network:
   arch:   [qt5-base]
   debian: [libqt5network5]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtnetwork]
+  slackware: [qt5]
   ubuntu: [libqt5network5]
 libqt5-opengl:
   arch:   [qt5-base]
   debian: [libqt5opengl5]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtopengl]
+  slackware: [qt5]
   ubuntu: [libqt5opengl5]
 libqt5-opengl-dev:
   arch:   [qt5-base]
   debian: [libqt5opengl5-dev]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtopengl]
+  slackware: [qt5]
   ubuntu: [libqt5opengl5-dev]
 libqt5-sql:
   arch:   [qt5-base]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtsql]
+  slackware: [qt5, postgresql, freetds]
   ubuntu: [libqt5sql5]
 libqt5-widgets:
   arch:   [qt5-base]
   debian: [libqt5widgets5]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtwidgets]
+  slackware: [qt5]
   ubuntu: [libqt5widgets5]
 libqtgui4:
   arch: [qt4]
@@ -2787,6 +2795,7 @@ libvtk-java:
   debian: [libvtk-java]
   fedora: [vtk-java]
   gentoo: [sci-libs/vtk]
+  slackware: [VTK]
   ubuntu: [libvtk-java]
 libvtk-qt:
   arch: [vtk]
@@ -2797,6 +2806,7 @@ libvtk-qt:
     wheezy: [libvtk5-qt4-dev]
   fedora: [vtk-qt]
   gentoo: [sci-libs/vtk]
+  slackware: [VTK]
   ubuntu:
     lucid: [libvtk5-qt4-dev]
     maverick: [libvtk5-qt4-dev]
@@ -2938,6 +2948,7 @@ log4cxx:
   macports: [ros-log4cxx]
   opensuse: [liblog4cxx-devel]
   rhel: [log4cxx-devel]
+  slackware: [log4cxx]
   ubuntu: [liblog4cxx10-dev]
 lttng-modules:
   arch: [lttng-modules]
@@ -3359,6 +3370,7 @@ qtbase5-dev:
   debian: [qtbase5-dev]
   fedora: [qt5-qtbase-devel]
   gentoo: [dev-qt/qtcore]
+  slackware: [qt5, libxkbcommon]
   ubuntu: [qtbase5-dev]
 qtmobility-dev:
   arch: [qtmobility]
