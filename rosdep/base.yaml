@@ -69,6 +69,7 @@ apr:
   macports: [apr, apr-util]
   opensuse: [libapr1, libapr-util1]
   rhel: [apr-devel, apr-util]
+  slackware: [apr, apr-util]
   ubuntu: [libapr1-dev, libaprutil1-dev]
 arduino-core:
   debian: [arduino-core]
@@ -1983,6 +1984,7 @@ libogre-dev:
   macports: [ogre]
   opensuse: [ogre-devel]
   rhel: [ogre-devel]
+  slackware: [ogre]
   ubuntu:
     lucid: [libogre-dev]
     maverick: [libogre-dev]
@@ -2148,6 +2150,7 @@ libpng12-dev:
       packages: [media-libs/libpng]
   macports: [libpng]
   opensuse: [libpng12-devel]
+  slackware: [libpng]
   ubuntu: [libpng12-dev]
 libpoco-dev:
   arch: [poco]
@@ -2675,6 +2678,7 @@ liburdfdom-dev:
   debian: [liburdfdom-dev]
   fedora: [urdfdom-devel]
   gentoo: [dev-libs/urdfdom]
+  slackware: [urdfdom]
   ubuntu:
     saucy: [liburdfdom-dev]
     trusty: [liburdfdom-dev]
@@ -2687,6 +2691,7 @@ liburdfdom-headers-dev:
   debian: [liburdfdom-headers-dev]
   fedora: [urdfdom-headers-devel]
   gentoo: [dev-libs/urdfdom_headers]
+  slackware: [urdfdom-headers]
   ubuntu:
     saucy: [liburdfdom-headers-dev]
     trusty: [liburdfdom-headers-dev]
@@ -3364,6 +3369,7 @@ qt5-qmake:
   debian: [qt5-qmake]
   fedora: [qt5-qtbase-devel]
   gentoo: [dev-qt/qtcore]
+  slackware: [qt5]
   ubuntu: [qt5-qmake]
 qtbase5-dev:
   arch:   [qt5-base]
