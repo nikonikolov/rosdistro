@@ -507,6 +507,7 @@ collada-dom:
     portage:
       packages: [media-libs/collada-dom]
   macports: [collada-dom]
+  slackware: [collada-dom]
   ubuntu:
     lucid: [collada-dom-dev]
     maverick: [collada-dom-dev]
@@ -1168,6 +1169,7 @@ jasper:
   gentoo: [media-libs/jasper]
   macports: [jasper]
   opensuse: [libjasper-devel]
+  slackware: [jasper]
   ubuntu: [libjasper-dev]
 java:
   arch: [jdk7-openjdk]
