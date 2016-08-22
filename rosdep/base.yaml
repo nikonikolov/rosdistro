@@ -3301,6 +3301,7 @@ protobuf-dev:
   fedora: [protobuf-devel, protobuf-compiler]
   gentoo: [dev-libs/protobuf]
   macports: [protobuf-cpp]
+  slackware: [protobuf]
   ubuntu: [libprotobuf-dev, protobuf-compiler, libprotoc-dev]
 ps-engine:
   arch: [primesense-sensor]
