@@ -2632,6 +2632,9 @@ libtool:
   macports: [libtool]
   opensuse: [libtool, libltdl3]
   rhel: [libtool, libtool-ltdl-devel]
+  slackware: 
+    slackpkg:
+      packages: [libtool]
   ubuntu:
     lucid: [libtool, libltdl-dev]
     maverick: [libtool, libltdl-dev]
