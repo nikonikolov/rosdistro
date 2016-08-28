@@ -831,6 +831,7 @@ gazebo:
   debian: [gazebo7]
   fedora: [gazebo-devel]
   gentoo: [sci-electronics/gazebo]
+  slackware: [gazebo]
   ubuntu:
     precise: [gazebo]
     quantal: [gazebo]
@@ -2117,6 +2118,7 @@ libpcl-all-dev:
       packages: [sci-libs/pcl]
   macports: [libpcl]
   opensuse: [pcl]
+  slackware: [pcl]
   ubuntu:
     precise: [libpcl-1.7-all-dev]
     quantal: [libpcl-1.7-all-dev]
