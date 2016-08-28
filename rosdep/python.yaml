@@ -820,8 +820,7 @@ python-imaging:
   opensuse: [python-imaging]
   rhel: [python-imaging]
   slackware: 
-    pip:
-      packages: [imaging]
+    slackpkg: [python-pillow]
   ubuntu:
     lucid: [python-imaging]
     maverick: [python-imaging]
