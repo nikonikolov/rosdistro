@@ -2575,7 +2575,11 @@ python-yaml:
   macports: [py27-yaml]
   opensuse: [python-PyYAML]
   rhel: [PyYAML]
-  slackware: [PyYAML]
+  slackware: 
+    sbotools:
+      pacakges: [PyYAML]
+    pip:
+      pacakges: [PyYAML]
   ubuntu:
     lucid: [python-yaml]
     maverick: [python-yaml]
