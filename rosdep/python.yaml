@@ -400,18 +400,23 @@ python-blinker:
   gentoo: [dev-python/blinker]
   ubuntu: [python-blinker]
 python-bloom:
-  debian:
-    buster: [python-bloom]
-    stretch: [python-bloom]
+  debian: [python-bloom]
   fedora: [python-bloom]
   gentoo: [dev-python/bloom]
   ubuntu:
+    artful: [python-bloom]
     precise: [python-bloom]
     quantal: [python-bloom]
     raring: [python-bloom]
     saucy: [python-bloom]
     trusty: [python-bloom]
     trusty_python3: [python3-bloom]
+    utopic: [python-bloom]
+    vivid: [python-bloom]
+    wily: [python-bloom]
+    xenial: [python-bloom]
+    yakkety: [python-bloom]
+    zesty: [python-bloom]
 python-bluez:
   arch: [python2-pybluez]
   debian: [python-bluez]
@@ -641,16 +646,7 @@ python-couchdb:
   debian: [python-couchdb]
   fedora: [python-couchdb]
   gentoo: [dev-python/couchdb-python]
-  ubuntu:
-    lucid: [python-couchdb]
-    maverick: [python-couchdb]
-    natty: [python-couchdb]
-    oneiric: [python-couchdb]
-    precise: [python-couchdb]
-    quantal: [python-couchdb]
-    raring: [python-couchdb]
-    saucy: [python-couchdb]
-    trusty: [python-couchdb]
+  ubuntu: [python-couchdb]
 python-coverage:
   arch: [python2-coverage]
   debian: [python-coverage]
@@ -780,12 +776,24 @@ python-debian:
   fedora: [python-debian]
   gentoo: [dev-python/python-debian]
   ubuntu:
+    artful: [python-debian]
+    artful_python3: [python3-debian]
+    bionic: [python-debian]
+    bionic_python3: [python3-debian]
     trusty: [python-debian]
     trusty_python3: [python3-debian]
     utopic: [python-debian]
     utopic_python3: [python3-debian]
     vivid: [python-debian]
     vivid_python3: [python3-debian]
+    wily: [python-debian]
+    wily_python3: [python3-debian]
+    xenial: [python-debian]
+    xenial_python3: [python3-debian]
+    yakkety: [python-debian]
+    yakkety_python3: [python3-debian]
+    zesty: [python-debian]
+    zesty_python3: [python3-debian]
 python-deepdiff-pip:
   debian:
     pip: [deepdiff]
@@ -996,6 +1004,19 @@ python-flask:
     wily: [python-flask]
     xenial: [python-flask]
     yakkety: [python-flask]
+python-flask-appbuilder-pip:
+  debian:
+    pip:
+      packages: [flask-appbuilder]
+  fedora:
+    pip:
+      packages: [flask-appbuilder]
+  osx:
+    pip:
+      packages: [flask-appbuilder]
+  ubuntu:
+    pip:
+      packages: [flask-appbuilder]
 python-flask-cors-pip:
   debian:
     pip:
@@ -1141,6 +1162,12 @@ python-gitpython-pip:
   ubuntu:
     pip:
       packages: [gitpython]
+python-gnupg:
+  arch: [python2-gnupg]
+  debian: [python-gnupg]
+  fedora: [python-gnupg]
+  gentoo: [dev-python/python-gnupg]
+  ubuntu: [python-gnupg]
 python-google-cloud-vision-pip:
   debian:
     pip:
@@ -1163,6 +1190,16 @@ python-googleapi:
     wily_python3: [python3-googleapi]
     xenial: [python-googleapi]
     xenial_python3: [python3-googleapi]
+python-graphviz-pip:
+  debian:
+    pip:
+      packages: [graphviz]
+  fedora:
+    pip:
+      packages: [graphviz]
+  ubuntu:
+    pip:
+      packages: [graphviz]
 python-gridfs:
   debian: [python-gridfs]
   fedora: [python-pymongo-gridfs]
@@ -1458,6 +1495,19 @@ python-lttngust:
   ubuntu:
     pip:
       packages: [python-lttngust]
+python-luis-pip:
+  debian:
+    pip:
+      packages: [luis]
+  fedora:
+    pip:
+      packages: [luis]
+  osx:
+    pip:
+      packages: [luis]
+  ubuntu:
+    pip:
+      packages: [luis]
 python-lxml:
   arch: [python2-lxml]
   debian: [python-lxml]
@@ -1774,12 +1824,30 @@ python-numpy-stl-pip:
   ubuntu:
     pip:
       packages: [numpy-stl]
+python-numpydoc:
+  arch: [python2-numpydoc]
+  debian: [python-numpydoc]
+  gentoo: [dev-python/numpydoc]
+  opensuse: [python-numpydoc]
+  ubuntu:
+    artful: [python-numpydoc]
+    trusty: [python-numpydoc]
+    xenial: [python-numpydoc]
+    zesty: [python-numpydoc]
 python-oauth2:
   arch: [python-oauth2]
-  debian: [python-oauth2]
+  debian:
+    wheezy:  [python-oauth2]
   fedora: [python-oauth2]
   gentoo: [dev-python/oauth2]
-  ubuntu: [python-oauth2]
+  ubuntu:
+    precise: [python-oauth2]
+    quantal: [python-oauth2]
+    raring: [python-oauth2]
+    saucy: [python-oauth2]
+    trusty: [python-oauth2]
+    utopic: [python-oauth2]
+    vivid: [python-oauth2]
 python-oauth2client:
   debian: [python-oauth2client]
   fedora: [python-oauth2client]
@@ -2389,6 +2457,11 @@ python-pyside.qtuitools:
     utopic_python3: [python3-pyside.qtuitools]
     vivid: [python-pyside.qtuitools]
     vivid_python3: [python3-pyside.qtuitools]
+python-pysnmp:
+  debian: [python-pysnmp4]
+  fedora: [pysnmp]
+  gentoo: [dev-python/pysnmp]
+  ubuntu: [python-pysnmp4]
 python-pytest:
   arch: [python2-pytest]
   debian: [python-pytest]
@@ -2432,6 +2505,19 @@ python-pyvirtualdisplay-pip:
   ubuntu:
     pip:
       packages: [pyvirtualdisplay]
+python-pyxhook-pip:
+  debian:
+    pip:
+      packages: [pyxhook]
+  fedora:
+    pip:
+      packages: [pyxhook]
+  osx:
+    pip:
+      packages: [pyxhook]
+  ubuntu:
+    pip:
+      packages: [pyxhook]
 python-qrencode:
   debian: [python-qrencode]
   gentoo: [media-gfx/qrencode-python]
@@ -2523,6 +2609,7 @@ python-qt5-bindings:
   opensuse: [python-qt5]
   slackware: [PyQt5]
   ubuntu:
+    artful: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev]
     wily: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     xenial: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     yakkety: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
@@ -2543,6 +2630,7 @@ python-qt5-bindings-gl:
     yakkety: [python-pyqt5.qtopengl]
     zesty: [python-pyqt5.qtopengl]
 python-qt5-bindings-webkit:
+  arch: [python2-pyqt5]
   debian:
     buster: [python-pyqt5.qtwebkit]
     jessie: [python-pyqt5.qtwebkit]
@@ -2627,6 +2715,11 @@ python-requests:
     yakkety_python3: [python3-requests]
     zesty: [python-requests]
     zesty_python3: [python3-requests]
+python-requests-oauthlib:
+  debian: [python-requests-oauthlib]
+  fedora: [python-requests-oauthlib]
+  gentoo: [dev-python/requests-oauthlib]
+  ubuntu: [python-requests-oauthlib]
 python-responses-pip:
   osx:
     pip:
@@ -2676,6 +2769,7 @@ python-rosdistro:
     pip:
       packages: [rosdistro]
   ubuntu:
+    artful: [python-rosdistro]
     lucid: [python-rosdistro]
     maverick: [python-rosdistro]
     natty: [python-rosdistro]
@@ -2686,15 +2780,24 @@ python-rosdistro:
     saucy: [python-rosdistro]
     trusty: [python-rosdistro]
     trusty_python3: [python3-rosdistro]
+    utopic: [python-rosdistro]
+    vivid: [python-rosdistro]
+    wily: [python-rosdistro]
+    wily_python3: [python3-rosdistro]
+    xenial: [python-rosdistro]
+    xenial_python3: [python3-rosdistro]
+    yakkety: [python-rosdistro]
+    yakkety_python3: [python3-rosdistro]
+    zesty: [python-rosdistro]
+    zesty_python3: [python3-rosdistro]
 python-rosinstall:
   arch: [python2-rosinstall]
-  debian:
-    buster: [python-rosinstall]
-    stretch: [python-rosinstall]
+  debian: [python-rosinstall]
   fedora: [python-rosinstall]
   gentoo: [dev-python/rosinstall]
   macports: [p27-rosinstall]
   ubuntu:
+    artful: [python-rosinstall]
     lucid: [python-rosinstall]
     maverick: [python-rosinstall]
     natty: [python-rosinstall]
@@ -2705,6 +2808,12 @@ python-rosinstall:
     saucy: [python-rosinstall]
     trusty: [python-rosinstall]
     trusty_python3: [python3-rosinstall]
+    utopic: [python-rosinstall]
+    vivid: [python-rosinstall]
+    wily: [python-rosinstall]
+    xenial: [python-rosinstall]
+    yakkety: [python-rosinstall]
+    zesty: [python-rosinstall]
 python-rosinstall-generator:
   arch: [python2-rosinstall-generator]
   debian:
@@ -2774,6 +2883,18 @@ python-rrdtool:
     raring: [python-rrdtool]
     saucy: [python-rrdtool]
     trusty: [python-rrdtool]
+python-ruamel.yaml:
+  debian:
+    buster: [python-ruamel.yaml]
+    jessie: [python-ruamel.yaml]
+    stretch: [python-ruamel.yaml]
+  fedora: [python-ruamel-yaml]
+  ubuntu:
+    artful: [python-ruamel.yaml]
+    bionic: [python-ruamel.yaml]
+    xenial: [python-ruamel.yaml]
+    yakkety: [python-ruamel.yaml]
+    zesty: [python-ruamel.yaml]
 python-scapy:
   debian: [python-scapy]
   fedora: [scapy]
@@ -2827,6 +2948,10 @@ python-selenium-pip:
   ubuntu:
     pip:
       packages: [selenium]
+python-semver:
+  debian: [python-semver]
+  fedora: [python-semver]
+  ubuntu: [python-semver]
 python-serial:
   arch: [python2-pyserial]
   debian: [python-serial]
@@ -3595,6 +3720,11 @@ python-vcstool:
   fedora: [python-vcstools]
   gentoo: [dev-python/vcstools]
   macports: [py27-vcstools]
+python-virtualenv:
+  debian: [python-virtualenv]
+  fedora: [python-virtualenv]
+  gentoo: [dev-python/virtualenv]
+  ubuntu: [python-virtualenv]
 python-visual:
   debian: [python-visual]
   fedora: [python-visual]
@@ -3715,6 +3845,7 @@ python-wtforms:
   gentoo: [dev-python/wtforms]
   ubuntu: [python-wtforms]
 python-wxtools:
+  arch: [wxpython]
   debian: [python-wxtools]
   fedora: [wxPython]
   gentoo: [dev-python/wxpython]
@@ -3843,6 +3974,17 @@ python3-pep8:
 python3-pkg-resources:
   debian: [python3-pkg-resources]
   ubuntu: [python3-pkg-resources]
+python3-ruamel.yaml:
+  debian:
+    buster: [python3-ruamel.yaml]
+    jessie: [python3-ruamel.yaml]
+    stretch: [python3-ruamel.yaml]
+  ubuntu:
+    artful: [python3-ruamel.yaml]
+    bionic: [python3-ruamel.yaml]
+    xenial: [python3-ruamel.yaml]
+    yakkety: [python3-ruamel.yaml]
+    zesty: [python3-ruamel.yaml]
 python3-setuptools:
   debian: [python3-setuptools]
   ubuntu: [python3-setuptools]
@@ -3863,6 +4005,19 @@ rpy2:
   debian: [python-rpy2]
   gentoo: ['=dev-python/rpy-2*']
   ubuntu: [python-rpy2]
+sphinxcontrib-bibtex-pip:
+  debian:
+    pip:
+      packages: [sphinxcontrib-bibtex]
+  fedora:
+    pip:
+      packages: [sphinxcontrib-bibtex]
+  osx:
+    pip:
+      packages: [sphinxcontrib-bibtex]
+  ubuntu:
+    pip:
+      packages: [sphinxcontrib-bibtex]
 tilestache:
   debian: [tilestache]
   fedora: [python-tilestache]
