@@ -4338,6 +4338,7 @@ tinyxml2:
   debian: [libtinyxml2-dev]
   fedora: [tinyxml2-devel]
   gentoo: [dev-libs/tinyxml2]
+  slackware: [tinyxml2]
   ubuntu: [libtinyxml2-dev]
 tix:
   arch: [tix]

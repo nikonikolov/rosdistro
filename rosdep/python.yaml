@@ -2549,6 +2549,7 @@ python-qt5-bindings-webkit:
     stretch: [python-pyqt5.qtwebkit]
   fedora: [python-qt5]
   gentoo: ['dev-python/PyQt5[webkit]']
+  slackware: [PyQt5]
   ubuntu:
     wily: [python-pyqt5.qtwebkit]
     xenial: [python-pyqt5.qtwebkit]
@@ -3717,6 +3718,7 @@ python-wxtools:
   debian: [python-wxtools]
   fedora: [wxPython]
   gentoo: [dev-python/wxpython]
+  slackware: [wxPython]
   ubuntu: [python-wxtools]
 python-xdot:
   debian: [xdot]
