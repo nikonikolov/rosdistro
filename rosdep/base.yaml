@@ -3600,6 +3600,7 @@ muparser:
   debian: [libmuparser-dev]
   fedora: [muParser-devel]
   gentoo: [dev-cpp/muParser]
+  slackware: [muParser]
   ubuntu: [libmuparser-dev]
 nasm:
   arch: [nasm]
